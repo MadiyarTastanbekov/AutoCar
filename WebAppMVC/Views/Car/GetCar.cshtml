@@ -1,0 +1,21 @@
+﻿@model IEnumerable<AutoCars.Domain.Modelss.Car>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<table>
+    @{
+        foreach (var item in Model)
+        {
+
+            <tr>
+                <td>@item.Model</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>@item.TypeCar</td>
+                <td>@item.Id</td>
+                <td>@item.Speed</td>
+            </tr>
+
+        }
+    }
+</table>

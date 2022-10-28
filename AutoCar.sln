@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoCar", "WebAppMVC\AutoCar.csproj", "{7D63103A-975F-479B-8D2C-79ADC9B00DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{3987B995-5E4E-45DA-8604-7A960C005B2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{440F3BC6-E8D7-4338-ADA8-FA6DA356EC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7BBA30FD-E55E-4F97-BA8B-8E635BB6944C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCar.Dal", "AutoCar.Dal\AutoCar.Dal.csproj", "{34E617BE-34FA-4A29-B13C-2DE5A34A73DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCar.Domain", "AutoCar.Domain\AutoCar.Domain.csproj", "{4D286FD0-E430-4BCF-BECD-802C6AFA57BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCar.Service", "AutoCar.Service\AutoCar.Service.csproj", "{186D3134-95B9-4562-B422-07C90F4D9DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D63103A-975F-479B-8D2C-79ADC9B00DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D63103A-975F-479B-8D2C-79ADC9B00DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D63103A-975F-479B-8D2C-79ADC9B00DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D63103A-975F-479B-8D2C-79ADC9B00DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E617BE-34FA-4A29-B13C-2DE5A34A73DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E617BE-34FA-4A29-B13C-2DE5A34A73DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E617BE-34FA-4A29-B13C-2DE5A34A73DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E617BE-34FA-4A29-B13C-2DE5A34A73DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D286FD0-E430-4BCF-BECD-802C6AFA57BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D286FD0-E430-4BCF-BECD-802C6AFA57BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D286FD0-E430-4BCF-BECD-802C6AFA57BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D286FD0-E430-4BCF-BECD-802C6AFA57BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186D3134-95B9-4562-B422-07C90F4D9DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186D3134-95B9-4562-B422-07C90F4D9DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186D3134-95B9-4562-B422-07C90F4D9DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186D3134-95B9-4562-B422-07C90F4D9DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34E617BE-34FA-4A29-B13C-2DE5A34A73DD} = {3987B995-5E4E-45DA-8604-7A960C005B2E}
+		{4D286FD0-E430-4BCF-BECD-802C6AFA57BD} = {440F3BC6-E8D7-4338-ADA8-FA6DA356EC5D}
+		{186D3134-95B9-4562-B422-07C90F4D9DDB} = {7BBA30FD-E55E-4F97-BA8B-8E635BB6944C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC37EF64-64EF-4CCE-9124-87382F441F53}
+	EndGlobalSection
+EndGlobal
